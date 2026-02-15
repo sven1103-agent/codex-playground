@@ -1,0 +1,4 @@
+interface:
+  display_name: "Formal Email"
+  short_description: "Rewrite email drafts into a formal professional tone"
+  default_prompt: "Rewrite the provided email content in a formal and professional style while preserving intent and key facts."
