@@ -1,0 +1,1 @@
+2026-02-15T10:31:31.275304Z ERROR codex_core::rollout::list: state db missing rollout path for thread 019c5d28-030e-7c10-9003-fc0bcf4e3a4b

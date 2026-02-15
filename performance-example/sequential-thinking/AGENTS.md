@@ -14,6 +14,15 @@ Optimize for correctness, clarity, robustness, and minimal, maintainable changes
   - test strategy
 - If the MCP tool is unavailable, explicitly say so and proceed with a clearly numbered plan in plain text.
 
+## MCP Tool Availability Check (MANDATORY)
+
+- The MCP tool `sequentialthinking` MUST be available in this session.
+- Verify tool availability before planning.
+- If the tool is not available or cannot be invoked, STOP immediately and report:
+  "sequentialthinking MCP tool not available — aborting execution."
+
+Do NOT fall back to manual planning.
+
 ---
 
 ## Task Source of Truth

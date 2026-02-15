@@ -16,6 +16,15 @@ Optimize for correctness, clarity, robustness, and minimal, maintainable changes
   5) Tests
 - Avoid branching alternatives unless explicitly requested.
 
+## Skill Availability Check (MANDATORY)
+
+- The `linear-thinking` skill MUST be available in this session.
+- Before starting the task, verify that the skill is accessible.
+- If the skill is not available, STOP immediately and report:
+  "linear-thinking skill not available — aborting execution."
+
+Do NOT proceed without the skill.
+
 ---
 
 ## Task Source of Truth

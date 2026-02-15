@@ -1,0 +1,38 @@
+[
+  {
+    "scenario": "vanilla-agent",
+    "cwd": "/root/codex-projects/playground/codex-playground/performance-example/vanilla-agent",
+    "started_utc": "2026-02-15T10:31:30.666166Z",
+    "returncode": 0,
+    "final_message_file": "/root/codex-projects/playground/codex-playground/performance-example/runs/20260215-103130Z/vanilla-agent.final.md",
+    "events_file": "/root/codex-projects/playground/codex-playground/performance-example/runs/20260215-103130Z/vanilla-agent.events.jsonl",
+    "stderr_file": "/root/codex-projects/playground/codex-playground/performance-example/runs/20260215-103130Z/vanilla-agent.stderr.txt"
+  },
+  {
+    "scenario": "linear-thinking",
+    "cwd": "/root/codex-projects/playground/codex-playground/performance-example/linear-thinking",
+    "started_utc": "2026-02-15T10:31:30.667869Z",
+    "returncode": 0,
+    "final_message_file": "/root/codex-projects/playground/codex-playground/performance-example/runs/20260215-103130Z/linear-thinking.final.md",
+    "events_file": "/root/codex-projects/playground/codex-playground/performance-example/runs/20260215-103130Z/linear-thinking.events.jsonl",
+    "stderr_file": "/root/codex-projects/playground/codex-playground/performance-example/runs/20260215-103130Z/linear-thinking.stderr.txt"
+  },
+  {
+    "scenario": "sequential-thinking",
+    "cwd": "/root/codex-projects/playground/codex-playground/performance-example/sequential-thinking",
+    "started_utc": "2026-02-15T10:31:30.671868Z",
+    "returncode": 0,
+    "final_message_file": "/root/codex-projects/playground/codex-playground/performance-example/runs/20260215-103130Z/sequential-thinking.final.md",
+    "events_file": "/root/codex-projects/playground/codex-playground/performance-example/runs/20260215-103130Z/sequential-thinking.events.jsonl",
+    "stderr_file": "/root/codex-projects/playground/codex-playground/performance-example/runs/20260215-103130Z/sequential-thinking.stderr.txt"
+  },
+  {
+    "scenario": "linear-and-sequential-thinking",
+    "cwd": "/root/codex-projects/playground/codex-playground/performance-example/linear-and-sequential-thinking",
+    "started_utc": "2026-02-15T10:31:30.672408Z",
+    "returncode": 0,
+    "final_message_file": "/root/codex-projects/playground/codex-playground/performance-example/runs/20260215-103130Z/linear-and-sequential-thinking.final.md",
+    "events_file": "/root/codex-projects/playground/codex-playground/performance-example/runs/20260215-103130Z/linear-and-sequential-thinking.events.jsonl",
+    "stderr_file": "/root/codex-projects/playground/codex-playground/performance-example/runs/20260215-103130Z/linear-and-sequential-thinking.stderr.txt"
+  }
+]
