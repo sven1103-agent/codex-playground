@@ -82,6 +82,137 @@ The task is defined in `task.md` for each scenario:
 
 ------------------------------------------------------------------------
 
+## 🚀 Prerequisites & Setup
+
+Before running this benchmark, ensure your environment is properly
+configured.\
+The benchmark assumes that Codex CLI and required development tools are
+installed and working.
+
+------------------------------------------------------------------------
+
+### 🧰 Required Tools
+
+#### 1️⃣ Codex CLI
+
+The benchmark depends on the Codex CLI to execute each scenario.
+
+Install via npm (Node.js required):
+
+``` bash
+npm install -g @openai/codex
+```
+
+Or on macOS/Linux using Homebrew:
+
+``` bash
+brew install codex
+```
+
+Verify installation:
+
+``` bash
+codex --version
+```
+
+------------------------------------------------------------------------
+
+#### 2️⃣ Node.js
+
+Required if installing Codex via npm.
+
+Check version:
+
+``` bash
+node --version
+```
+
+Node.js 18+ is recommended.
+
+------------------------------------------------------------------------
+
+#### 3️⃣ Python 3
+
+Each scenario implements the task in Python.
+
+Verify:
+
+``` bash
+python3 --version
+```
+
+Python 3.10+ recommended.
+
+------------------------------------------------------------------------
+
+#### 4️⃣ Git (Recommended)
+
+Codex works best inside a Git repository:
+
+``` bash
+git --version
+```
+
+------------------------------------------------------------------------
+
+### 🔐 Authentication
+
+Codex CLI requires authentication.
+
+#### Option A: ChatGPT Login
+
+``` bash
+codex login
+```
+
+Follow the browser flow to authenticate.
+
+#### Option B: API Key Mode (Optional)
+
+``` bash
+export OPENAI_API_KEY="sk-..."
+```
+
+Optionally configure:
+
+``` toml
+# ~/.codex/config.toml
+preferred_auth_method = "apikey"
+```
+
+------------------------------------------------------------------------
+
+### 🧪 Recommended: Python Virtual Environment
+
+To ensure reproducibility and allow test execution:
+
+``` bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -U pip pytest
+```
+
+Verify pytest:
+
+``` bash
+pytest --version
+```
+
+------------------------------------------------------------------------
+
+### ▶️ After Setup
+
+Once all dependencies are installed and authentication is complete, run
+the benchmark from repository root:
+
+``` bash
+python run-tasks.py
+```
+
+The benchmark will execute all scenarios using your configured Codex CLI
+environment.
+
+
 # ▶️ Running the Benchmark
 
 From repository root:
